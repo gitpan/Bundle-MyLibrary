@@ -1,6 +1,6 @@
 package Bundle::MyLibrary;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 1;
 
@@ -22,10 +22,10 @@ L<http://dewey.library.nd.edu/mylibrary/>
 =head1 CONTENTS
 
 CGI
-Bundle::DBI
+DBI
+DBD::mysql
 Pod::Parser
 Data::ShowTable
-DBD::mysql
 URI
 HTML::Parser
 Bundle::libnet
@@ -37,7 +37,6 @@ MIME::Decoder::Base64
 Mail::Send
 IO::Stringy
 MIME-tools
-Text::Tabs+Wrap
 Mail::Send
 Time::CTime
 Time::ParseDate

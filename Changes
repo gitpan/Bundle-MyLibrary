@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::MyLibrary.
 
+0.02  Tue Feb 21 01:46:00 2003
+	- removed Text::Tabs+Wrap since it's included somewhere else
+	- removed Bundle::DBI in favor of DBI
+
 0.01  Tue Feb 21 08:19:41 2003
 	- original version; created by h2xs 1.22 with options
 		-AXcfn Bundle::MyLibrary

@@ -1,6 +1,6 @@
 package Bundle::MyLibrary;
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 1;
 
@@ -19,27 +19,52 @@ C<perl -MCPAN -e 'install Bundle::MyLibrary>
 These are Perl dependencies for the MyLibrary portal software.
 L<http://dewey.library.nd.edu/mylibrary/>
 
+After installing you may get a report that there were some problems 
+installing certain modules. Before reporting them make sure that they 
+haven't installed by:
+
+    perl -MMIME::Base64 -e 1
+
+This will test to make sure the MIME::Base64 package is available. Substitute 
+the name of any modules that were reported failed. If you have trouble
+please write to the mylib-dev mailing list. Subscription details are 
+available at http://dewey.library.nd.edu/mylibrary/mailing-list.shtml
+
 =head1 CONTENTS
 
 CGI
+
 DBI
-DBD::mysql
+
 Pod::Parser
+
 Data::ShowTable
-URI
-HTML::Parser
-Bundle::libnet
-Bundle::LWP
-Digest
-Digest::MD5
+
 MIME::Base64
+
+DBD::mysql
+
+URI
+
+HTML::Parser
+
+Bundle::libnet
+
+LWP
+
+Digest
+
+Digest::MD5
+
 MIME::Decoder::Base64
-Mail::Send
+
 IO::Stringy
-MIME-tools
-Mail::Send
-Time::CTime
-Time::ParseDate
+
+MIME::Parser - to grab MIME-tools
+
+Mail::Send - to grab MailTools
+
+Time::CTime - to grab Time-modules
 
 =head1 AUTHOR
 

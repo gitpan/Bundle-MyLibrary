@@ -1,6 +1,6 @@
 package Bundle::MyLibrary;
 
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 1;
 
@@ -65,6 +65,14 @@ MIME::Parser - to grab MIME-tools
 Mail::Send - to grab MailTools
 
 Time::CTime - to grab Time-modules
+
+=head1 TODO
+
+=over 4
+
+=item * Include version dependencies?
+
+=back
 
 =head1 AUTHOR
 
